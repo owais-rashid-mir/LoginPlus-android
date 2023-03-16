@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f4a460"
+    tools:context=".ShowDetailsActivity">
+
+
+    <TextView
+        android:id="@+id/tvDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Entered Information :"
+        android:textSize="30sp"
+        android:textColor="#311b92"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:id="@+id/tvName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name will be displayed here."
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvAge2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age will be displayed here."
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvEmail2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email will be displayed here."
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvPhone2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone will be displayed here."
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvRollno2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Roll no. will be displayed here."
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvBatch2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Batch will be displayed here."
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textStyle="italic"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp" />
+
+
+</LinearLayout>
